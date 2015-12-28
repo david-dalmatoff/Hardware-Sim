@@ -1,8 +1,6 @@
 /* Purpose Statement	: Program implements a machine language interpreter for a specified architecture using an outline.
- * Names		: David Dalmatoff
+ * Name			: David Dalmatoff
  * File	Name	: proj1a.c
- * Class		: CSC-214-001
- * Semester/Year: Fall 2015
  * Date Started	: 10/20/15
  * Date Ended	: 11/03/15
  */
