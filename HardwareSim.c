@@ -1,5 +1,5 @@
 /* Purpose Statement	: Program implements a machine language interpreter for a specified architecture using an outline.
- * Name			: David Dalmatoff
+ * Author		: David Dalmatoff
  * File	Name	: HardwareSim.c
  * Date Started	: 10/20/15
  * Date Ended	: 11/03/15
@@ -166,9 +166,14 @@ void decode(char *in,int n){
 		instrs[n][0] = -1;
 	}
 }
+
+/*
 void calcOperand(char *in,int row){
 	
 }
+*/
+
+
 void pickRegister(char *in,int row){
 	int rnum = 0;
 	if(in[7] == '1'){
@@ -180,6 +185,7 @@ void pickRegister(char *in,int row){
 	instrs[row][2] = rnum;
 }
 
+//outputs what is currently stored in memory
 void memoryDump(){
 	for(i = 0; i < 255;i++){
 		if(instrs[i][0] != 0){
