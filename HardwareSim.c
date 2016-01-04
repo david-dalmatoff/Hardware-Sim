@@ -1,5 +1,5 @@
 /* Purpose Statement	: Program implements a machine language interpreter for a specified architecture using an outline.
- * Author		: David Dalmatoff
+ * Authors		: David Dalmatoff && Jared McDonald
  * File	Name	: HardwareSim.c
  * Date Started	: 10/20/15
  * Date Ended	: 11/03/15
